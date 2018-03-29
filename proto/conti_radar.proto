@@ -1,8 +1,8 @@
 syntax = "proto2";
 
-package conti_radar;
+package proto;
 
-import "proto/header.proto";
+import "proto/common/header.proto";
 import "proto/conti_radar_conf.proto";
 
 message ClusterListStatus_600 {
@@ -21,8 +21,8 @@ message ObjectListStatus_60A {
 message RadarState_201 {
   optional uint32 max_distance = 1;
   optional uint32 radar_power = 2;
-  optional conti_radar.OutputType output_type = 3;
-  optional conti_radar.RcsThreshold rcs_threshold = 4;
+  optional proto.OutputType output_type = 3;
+  optional proto.RcsThreshold rcs_threshold = 4;
   optional bool send_quality = 5;
   optional bool send_ext_info = 6;
 }

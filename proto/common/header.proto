@@ -1,8 +1,8 @@
 syntax = "proto2";
 
-package common;
+package proto.common;
 
-import "proto/error_code.proto";
+import "proto/common/error_code.proto";
 
 message Header {
   // Message publishing time in seconds. It is recommended to obtain

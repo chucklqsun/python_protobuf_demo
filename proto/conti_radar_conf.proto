@@ -1,6 +1,6 @@
 syntax = "proto2";
 
-package conti_radar;
+package proto;
 
 import "proto/can_card_parameter.proto";
 

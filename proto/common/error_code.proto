@@ -1,6 +1,6 @@
 syntax = "proto2";
 
-package common;
+package proto.common;
 
 // Error codes enum for API's categorized by modules.
 enum ErrorCode {
